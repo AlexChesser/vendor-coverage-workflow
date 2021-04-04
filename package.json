@@ -7,6 +7,7 @@
   "main": "program.cs",
   "dependencies": {},
   "devDependencies": {
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-dotnet-watch": "file:./dependencies/gulp-dotnet-watch-customized",

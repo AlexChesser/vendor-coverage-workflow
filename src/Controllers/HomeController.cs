@@ -9,7 +9,7 @@ using vendor_coverage_workflow.Models;
 
 namespace vendor_coverage_workflow.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseMyWebsiteController
     {
         private readonly ILogger<HomeController> _logger;
 
