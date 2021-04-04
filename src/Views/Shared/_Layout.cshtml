@@ -6,10 +6,9 @@
     <title>@ViewData["Title"] - vendor_coverage_workflow</title>
     @if(ViewBag.GenerateCoverage){
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
+    } else {
+        <link rel="stylesheet" href="~/coverage/css/bootstrap.min.css" />
     }
-    <link rel="stylesheet" href="~/coverage/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/coverage/site.css" />
 </head>
 <body>
     <header>
