@@ -1,0 +1,57 @@
+{
+  "_from": "gulp-dotnet-watch",
+  "_id": "gulp-dotnet-watch@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-FcBLeurZxcAmI4AHbOpTFIfHmAomGcbrQAW6osYYO523XbOklQeLKNwNQeJfOyHsXhtRmo6hbz4jONbZ0f8IPA==",
+  "_location": "/gulp-dotnet-watch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gulp-dotnet-watch",
+    "name": "gulp-dotnet-watch",
+    "escapedName": "gulp-dotnet-watch",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-dotnet-watch/-/gulp-dotnet-watch-0.3.1.tgz",
+  "_shasum": "6f1036a6a6f8d73866d975c3fe6893c10732dc73",
+  "_spec": "gulp-dotnet-watch",
+  "_where": "C:\\www\\vendor-coverage-workflow",
+  "author": {
+    "name": "roydukkey"
+  },
+  "bugs": {
+    "url": "https://github.com/roydukkey/gulp-dotnet-watch/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "object-assign": "^4.1.0"
+  },
+  "deprecated": false,
+  "description": "dotnet-watch plugin for gulp",
+  "homepage": "https://github.com/roydukkey/gulp-dotnet-watch#readme",
+  "keywords": [
+    "aspnet",
+    "aspnetcore",
+    "dotnet",
+    "dotnetcore",
+    "dotnetwatch",
+    "watch",
+    "watcher"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gulp-dotnet-watch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roydukkey/gulp-dotnet-watch.git"
+  },
+  "version": "0.3.1"
+}

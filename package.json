@@ -1,0 +1,28 @@
+{
+  "name": "vendor-coverage-workflow",
+  "version": "1.0.0",
+  "description": "this project is intended to share a workflow for automatically trimming vendor css files into stricltly the classes required for execution.",
+  "license": "MIT",
+  "author": "Alexander Chesser <alex.chesser@gmail.com>",
+  "main": "program.cs",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-dotnet-watch": "file:./dependencies/gulp-dotnet-watch-customized",
+    "penthouse": "^2.3.2"
+  },
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp build",
+    "watch": "./node_modules/.bin/gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexChesser/vendor-coverage-workflow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexChesser/vendor-coverage-workflow/issues"
+  },
+  "homepage": "https://github.com/AlexChesser/vendor-coverage-workflow#readme"
+}
