@@ -11,7 +11,8 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-dotnet-watch": "file:./dependencies/gulp-dotnet-watch-customized",
-    "js-interpreter": "^2.2.0"
+    "js-interpreter": "^2.2.0",
+    "puppeteer": "^8.0.0"
   },
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
