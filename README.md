@@ -5,6 +5,7 @@ TL;DR: went from a page load of 2400ms down to 1700ms in lighthouse's rating of 
 ![TL;DR before](src/wwwroot/images/tldr-before.png)
 ![TL;DR before](src/wwwroot/images/tldr-after.png)
 
+note that this LH run which scored 100 with a 0.8s FCP was a super luck fluke that I'm too proud of to actually delete and re-take.  I'm sure the real numbers are closer to the 1.7s I'm talking about.
 
 ## About this project
 
