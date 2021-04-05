@@ -1,6 +1,5 @@
 const { src, dest, series, parallel, watch } = require('gulp');
 const DotnetWatch = require('gulp-dotnet-watch');
-const penthouse = require('penthouse');
 const puppeteer = require('puppeteer');
 const util = require('util');
 const fs = require('fs');
