@@ -1,5 +1,10 @@
 # vendor-coverage-workflow
-This is a sample workflow for generating "coverage" files out of vendor css. Designed for working with mid sized teams.
+
+TL;DR: went from a page load of 2400ms down to 1700ms in lighthouse's rating of a demo project by running a script on 3rd party CSS and JS. A score of 95 to a 99. The CSS is realtively common, but I *believe* the JavaScript isn't really being done out in the wild. 
+
+![TL;DR before](src/wwwroot/images/tldr-before.png)
+![TL;DR before](src/wwwroot/images/tldr-after.png)
+
 
 ## About this project
 
