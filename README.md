@@ -218,7 +218,7 @@ Off the top of my head the regex to match for `new RegExp("[a-zA-Z0-9_\-]+:"+try
 
 According to https://regex101.com it looks like I could replace a huge proportion of my functions with entirely `blank-space`
 
-![js savings](src/wwwroot/images/vendor-js-report.png)
+![js savings](src/wwwroot/images/regex-js.png)
 
 There are some concerns around the last comma in a long array of functions in this syle, but since we test and retest after every swap, this should actuallly be reasonable "safe".
 
