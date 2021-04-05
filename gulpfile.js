@@ -158,13 +158,8 @@ exports.default = this.coverage;
 exports.coverage = series(
     clean,
     dotnet_start,
-    extract_coverage.bind(null, "JS", "", paths.out.js),
-    // parallel(
-    //     extract_coverage.bind(null, "CSS", "", paths.out.css)
-    //     // create as many unique paths as needed
-    //     // note that layout.cshtml would need to be modified
-    //     // in order to pull per-page CSS rules
-    //     //
-    //     //,extract_coverage.bind(null, "my-other-path")
-    // ),
+    parallel(
+        extract_coverage.bind(null, "JS", "", paths.out.js),
+        extract_coverage.bind(null, "CSS", "", paths.out.css)
+    ),
     dotnet_shutdown);
