@@ -11,6 +11,7 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-dotnet-watch": "file:./dependencies/gulp-dotnet-watch-customized",
+    "js-interpreter": "^2.2.0",
     "penthouse": "^2.3.2"
   },
   "scripts": {

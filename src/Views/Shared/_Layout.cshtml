@@ -43,8 +43,13 @@
             &copy; 2021 - vendor_coverage_workflow - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+    @if(ViewBag.GenerateCoverage){
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    } else {
+        <script src="~/coverage/js/jquery.min.js"></script>
+        <script src="~/coverage/js/bootstrap.bundle.min.js"></script>
+    }
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
