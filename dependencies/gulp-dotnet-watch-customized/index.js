@@ -106,23 +106,18 @@ class DotnetWatch {
 			Log(LogLevels.warn, 'Already watching', this.options.quiet);
 		}
 		else {
-			console.log("observing", this.options.observe);
 			if (!this._child) {
 				process.on('exit', () => this.kill());
 			}
-
 			let args = BuildCommand(task, this.options, this.options.options, this.options.arguments, this.options.special.options, this.options.special.arguments);
-
 			this._child = spawn('dotnet', args, {
 				cwd: this.options.cwd
 			});
 
 			this._child.stdout.on('data', (data) => {
 				Log(LogLevels.info, data);
-
 				if (data.indexOf(this.options.observe) > -1) {
 					this.isApplicationStarted = true;
-
 					if (loaded) {
 						loaded();
 					}

@@ -7,7 +7,7 @@
     @if(ViewBag.GenerateCoverage){
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     } else {
-        <link rel="stylesheet" href="~/coverage/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/coverage/css/bootstrap.min.css" asp-append-version="true" />
     }
 </head>
 <body>
@@ -43,8 +43,8 @@
             &copy; 2021 - vendor_coverage_workflow - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
