@@ -159,7 +159,7 @@ Another Quality of Life improvement I'd want to take care of in a production set
 
 Can we further reduce javascript? Some thoughts for techniques to try:
 
-### method for investigation #1 shared stub function.
+### method for investigation #1: use a shared stub function.
 
 instead of replacing each function with 12 characters usign the string `function(){}` could we instead insert a single named stub?
 
@@ -200,7 +200,7 @@ end:x,
 
 We could effectively save 11 more characters per function. I bet that adds up fast.
 
-### method for investigation #2 eliminate unused function names as well
+### method for investigation #2: eliminate unused function names as well
 
 Consider the above code again. In lowest-terms, isn't this ALSO the same thing?
 
